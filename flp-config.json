@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "rdwkenteken",
+        "description": "RDW Kenteken informatie",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#rdwkenteken-Display",
+        "navigationComponentName": "stuifzand.xyz",
+        "intentSemanticObject": "rdwkenteken",
+        "intentAction": "Display",
+        "html5ApplicationName": "rdwkentekenchecker",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "fc3588c9-da2e-42d4-8525-e15d28edc805-1474803716039"
+        ],
+        "contentPackages": [
+            "23e93aa2-73cc-4160-87a9-47c2a5ec8b76-1468147845926"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "RDW Kenteken",
+        "subtitle": "Check APK Datum",
+        "searchKeywords": "RDW Kenteken,Check APK Datum",
+        "displayIconUrl": "sap-icon://car-rental",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

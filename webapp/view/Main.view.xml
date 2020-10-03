@@ -1,0 +1,24 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="stuifzand.xyz.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Panel headerText="{i18n>hdrpanel1}" width="auto">
+						<Label text="{i18n>kenteken}"/>
+						<Input value="{/kenteken}" id="inpKenteken" maxLength="8"/>
+						<Button press="onPress" text="{i18n>btnkenteken}"/>
+					</Panel>
+					<Panel headerText="{i18n>hdrpanel2}" width="auto">
+						<Label text="{i18n>txtmerk}"/>
+						<Input value="{/merk}" editable="false"/>
+						<Label text="{i18n>txttype}"/>
+						<Input value="{/type}" editable="false"/>
+						<Label text="{i18n>txtvervaldatum}"/>
+						<Input value="{/apk}" editable="false"/>
+					</Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
